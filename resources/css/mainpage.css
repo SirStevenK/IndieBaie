@@ -1,0 +1,179 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+html
+{
+    min-height: 100%;
+}
+
+body
+{
+    background: linear-gradient(-30deg, #67e6dc, #7efff5, #32ff7e);
+}
+
+
+/* presentation */
+
+#presentation
+{
+    display: block;
+    margin: 5%;
+}
+
+.carte
+{
+    display: flex!important;
+    width: 100%;
+    max-width: 310px;
+    margin: 0 auto!important;
+    background: #ffffff;
+}
+
+#content-presentation
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border-radius: 20px; */
+}
+
+#content-presentation a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#content-presentation a.disabled 
+{
+    display: block;
+    pointer-events: none;
+    cursor: default;
+ }
+
+#content-presentation h4
+{
+    font-family: Roboto Condensed;
+    font-size: 20px;
+}
+
+#content-presentation .image img
+{
+    width: 100%!important;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px!important;
+}
+
+
+#content-presentation .ribbon
+{
+    /* display: block; */
+    width: 30%;
+    margin: 0;
+}
+
+.title-carte
+{
+    width: 100%;
+    text-align: center;
+}
+
+.details div
+{
+    display: block;
+    margin: 0 0 0 0;
+}
+
+.details div i
+{
+    color: #d35400;
+}
+
+.details div p
+{
+    display: inline;
+    color: #e67e22;
+}
+
+.details .auteur
+{
+    float: left;
+    font-family: Damion;
+    font-size: 20px;
+}
+
+.details .date
+{
+    float: right;
+    margin-right: 5px;
+
+    font-family: Lobster;
+    font-size: 20px;
+}   
+
+.content
+{
+    padding: 0 5px!important;
+    color: #444444;
+    font-family: Oswald;
+
+    border-top: 0!important;
+    border-bottom: 1px solid gray!important;
+    border-radius: 3px!important;
+    padding-bottom: 2px!important;
+
+    line-height: 24px;
+    max-height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+
+}
+
+.tag
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag .ui.label
+{
+    padding: 0;
+    margin: 1px;
+}
+
+.tag .ui.label>.icon
+{
+    margin: 10px;
+}
+.tag a
+{
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tag p
+{
+    display: inline;
+    margin-right: 10px;
+    font-family: Questrial;
+    font-size: 15px;
+}
+
+.bloc
+{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.etiquette
+{
+    font-family: Roboto Condensed;
+}

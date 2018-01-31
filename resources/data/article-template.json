@@ -1,0 +1,15 @@
+{
+    "type": "Actualité",
+    "color": "olive",
+    "titre": "",
+    "mainImage": "/./resources/images/",
+    "author": "StevenK",
+    "genre": "",
+    "keywords": [{"id":1, "text":""}, {"id": 2, "text":""}, {"id":3, "text":""}],
+    "url": "/./articles/.php",
+    "datePublished": "2018-01-25T18:07:42",
+    "description": "",
+    "articleContent": "",
+    "link": ""
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "type": "Vidéo",
+    "color": "red",
+    "titre": "Tokyo 42 : Mise à jour de la camera",
+    "mainImage": "/./resources/images/t42.jpg",
+    "mainVideo": "https://www.youtube.com/embed/tYq-t5xuMP0",
+    "author": "StevenK",
+    "genre": "Action",
+    "keywords": [{"id":1, "text":"Tokyo 42"}, {"id": 2, "text":"Shooter"}, {"id":3, "text":"Action"}],
+    "url": "/./videos/tokyo-42-camera-update.php",
+    "datePublished": "2018-01-30T07:07:13",
+    "description": "La dernière mise à jour de Tokyo 42 corrige de nombreux défauts de la caméra, elle devient donc bien plus stable et possède un bien meilleur champ",
+    "articleContent": ""
+}
